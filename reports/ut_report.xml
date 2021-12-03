@@ -111,8 +111,9 @@
   <file path="src/app/post/post-detail/post-detail.component.spec.ts">
     <testCase name="PostDetailComponent should create" duration="6"/>
   </file>
-  <file path="src/app/client/client.service.spec.ts">
-    <testCase name="Service: Client getClient() should return 10 records" duration="1"/>
+  <file path="src/app/complementaryinformation/complementaryinformation-listar/complementaryinformation-listar.component.spec.ts">
+    <testCase name="ComplementaryInformationListarComponent Should have an td element " duration="24"/>
+    <testCase name="ComplementaryInformationListarComponent should create" duration="9"/>
   </file>
   <file path="src/app/calendar/calendar.service.spec.ts">
     <testCase name="Service: Calendar getPost() should return 10 records" duration="4"/>
