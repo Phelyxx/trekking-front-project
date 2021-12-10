@@ -16,7 +16,8 @@ import {ReactiveFormsModule} from '@angular/forms';
     ],
     exports: [
         CommentListarComponent,
-        CommentRepliesComponent
+        CommentRepliesComponent,
+        CommentCreateComponent
     ],
   declarations: [CommentListarComponent, CommentDetailComponent, CommentBasicComponent, CommentRepliesComponent, CommentCreateComponent]
 })

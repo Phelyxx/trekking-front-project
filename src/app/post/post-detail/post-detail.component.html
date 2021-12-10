@@ -13,6 +13,7 @@
         <dd>{{postDetail.ratings}}</dd>
         <dt>Comments</dt>
         <app-comment-replies [idComment]="postDetail.comment.id"></app-comment-replies>
+        <app-comment-create [tread]="postDetail.comment"></app-comment-create>
       </dl>
     </div>
   </div>

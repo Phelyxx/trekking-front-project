@@ -11,6 +11,7 @@
       <dd>{{reviewDetail.comment.likes}}</dd>
       <dt>Dislikes</dt>
       <app-comment-replies [idComment]="reviewDetail.comment.id"></app-comment-replies>
+      <app-comment-create [tread]="reviewDetail.comment"></app-comment-create>
     </div>
   </div>
 </div>
